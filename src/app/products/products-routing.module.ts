@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BasicpagesComponent } from './pages/basicpages/basicpages.component';
 import { NumberpagesComponent } from './pages/numberpages/numberpages.component';
 import { UncommonpagesComponent } from './pages/uncommonpages/uncommonpages.component';
+import { OrderComponent } from './pages/order/order.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'uncommon',
     component: UncommonpagesComponent
+  },
+  {
+    path: 'custom',
+    component: OrderComponent
   },
   {
     path: '**',
